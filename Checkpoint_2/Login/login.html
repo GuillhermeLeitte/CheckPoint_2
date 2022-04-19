@@ -9,20 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+
+        <div class="background"></div>
         <section class="login">
 
-            <a href="http://127.0.0.1:5500/Checkpoint_2/Home_page/index.html"><button class="login__exit">x</button></a>
+            <header>
+                <a class="login__aexit" href="http://127.0.0.1:5500/Checkpoint_2/Home_page/index.html">
+                    <button class="login__exit">x</button>
+                </a>
+            </header>
+           
             
             <img class="login__img" src="./imagens_login/img__Dh.png"" alt="Logo da DH">
         
 
-                <label class="formulario__label" for="emal_1">email</label>
-                <input class="formulario__caixa" type="email" name="email" required>
-                <label class="formulario__label" for="senha">senha</label>
-                <input class="formulario__caixa" type="password" name="senha" required>
+            <label class="formulario__label" for="emal">
+                <span class="label__spam">email</span>
+                <input class="formulario__caixa" type="email" name="email" id="email" required>
+            </label>
+
+            <label class="formulario__label" for="senha">
+                <span class="label__spam">senha</span>
+                <input class="formulario__caixa" type="password" name="senha" id="senha" required>
+            </label>
+                
+
     
            
-            <a href="http://127.0.0.1:5500/Checkpoint_2/Home_page/index.html"><button class="login__botao">entrar</button></a> 
+            <footer>
+                <a href="http://127.0.0.1:5500/Checkpoint_2/Home_page/index.html">
+                    <button class="login__botao">entrar</button>
+                </a> 
+            </footer>
          </section>
 </body>
 </html>
