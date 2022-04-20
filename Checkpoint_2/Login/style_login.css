@@ -113,6 +113,7 @@ footer{
 
 .login__botao:hover{
     background-color: lightseagreen;
+    transform: scale(.95);
     transition-duration: 0.3s;
 }
 
