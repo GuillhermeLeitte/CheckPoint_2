@@ -8,8 +8,11 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    background-image:url('./imagens_login/imagem_fundo.png');
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     align-items: center;
@@ -19,13 +22,6 @@ body{
 
 }
 
-.background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./imagens_login/Imagem_home.png');
-    min-height: 100vh;
-    min-width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .login{
     position: absolute;
@@ -112,10 +108,12 @@ footer{
 
     color: white;
     font-size: medium;
+
 }
 
 .login__botao:hover{
     background-color: lightseagreen;
+    transition-duration: 0.3s;
 }
 
 .login__exit:hover{
