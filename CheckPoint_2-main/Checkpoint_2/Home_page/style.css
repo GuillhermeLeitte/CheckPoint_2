@@ -338,6 +338,7 @@
 
 .primeiro-aluno {
    width: 40vw;
+   text-align: start;
    
    
    
@@ -345,12 +346,12 @@
 
 .segundo-aluno {
     width: 40vw;
-     
+    text-align: center;
 }
 
 .terceiro-aluno {
     width: 40vw;
-     
+    text-align: end;
 }
 
 .nome-rodape {
@@ -417,8 +418,13 @@
     flex-direction: column;
     justify-content: center;
     width: 50vw;
-    
+    }
 
+    .segundo-aluno{
+        text-align: start;
+    }
 
+    .terceiro-aluno{
+        text-align: start;
     }
 }
