@@ -38,7 +38,6 @@
     
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
     height: 80px;
 }
 
@@ -65,7 +64,6 @@
 }
 
 .banner {
-    width: 100vw;
     height: 1000px;
     background-image: url("./imagens/imagem-principal.png");
     background-repeat: no-repeat;
@@ -84,7 +82,6 @@
 .banner-itens {
     margin: auto;
    
-    width: 100vw;
     height: 100vh; 
 
     display: flex;
@@ -313,7 +310,6 @@
 }
 
 .rodape {
-    width: 100vw;
     height: 200px;
     margin-top: 40px;
     
@@ -402,6 +398,8 @@
 
 
 
-
-
-
+@media(max-width: 780px) {
+    .links-nav {
+        display: none;
+    }
+}
