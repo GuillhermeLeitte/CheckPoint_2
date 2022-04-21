@@ -28,10 +28,9 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
    
-   
-  
-
 }
+
+
 
 .nav {
     display: flex;
@@ -123,26 +122,28 @@
     color: #FFFFFF;
 }
 
+
+
 .botao {
-   
-    margin:20px auto;
-
-    width: 25vw;
-    height: 8vh;
-    
-   
-    background: rgba(51, 187, 105, 0.05);
-    border: 1px solid #33BB69;
-    box-sizing: border-box;
-    border-radius: 12px;
-
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
 
-    color: #FFFFFF;
-
+  
+ .botao:hover {
+    background-color: darkgray;
+    color: white;
 }
 
 #titulo-itens {
@@ -290,7 +291,7 @@
 
 .botao-card-filmes {
     display: block;
-    margin: 130px auto;
+    margin: 10px;
     width: 342px;
     height: 30px;
     

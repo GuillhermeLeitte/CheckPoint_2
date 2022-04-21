@@ -4,9 +4,14 @@
     position: relative;
     background-image: url("../Home_page/imagens/coringa.png");
     background-size: 100%;
-    
 }
-
+.banner-filme3 {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    background-image: url("../Home_page/imagens/marvel.png");
+    background-size: 100%;
+}
 .sinopse-filme1{
     font-family: 'Roboto';
     font-style: normal;
