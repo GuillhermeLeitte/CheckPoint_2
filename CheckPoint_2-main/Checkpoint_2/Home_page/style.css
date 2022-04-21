@@ -310,7 +310,7 @@
 }
 
 .rodape {
-    height: 200px;
+    height: 100%;
     margin-top: 40px;
     
     background: #171717;
@@ -329,23 +329,26 @@
     margin: 30px;
     padding: 30px;
     color: #FFFFFF;
+    align-items: center;
+    flex-direction: row;
+    
 
 }
 
 .primeiro-aluno {
-   text-align: start;
+   width: 40vw;
    
    
    
 }
 
 .segundo-aluno {
-    text-align: center;
+    width: 40vw;
      
 }
 
 .terceiro-aluno {
-    text-align: end;
+    width: 40vw;
      
 }
 
@@ -401,5 +404,20 @@
 @media(max-width: 780px) {
     .links-nav {
         display: none;
+    }
+
+    .botao{
+        width: 60vw;
+    }
+
+    
+
+    .nomes-rodape{
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    
+
+
     }
 }
