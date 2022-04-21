@@ -1,0 +1,68 @@
+.banner-filme1 {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    background-image: url("../Home_page/imagens/coringa.png");
+    background-size: 100%;
+    
+}
+
+.sinopse-filme1{
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.banner-filme1.p{
+    font-size: 50px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    }
+    
+    .rating > input{
+     display:none;
+    }
+    
+    .rating > label {
+    position: relative;
+    width: 25px;
+    font-size: 30px;
+    color: #FFD700;
+    cursor: pointer;
+    }
+    
+    .rating > label::before{
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+    }
+    
+    .rating > label:hover:before,
+    .rating > label:hover ~ label:before {
+    opacity: 1 !important;
+    }
+    
+    .rating > input:checked ~ label:before{
+    opacity:1;
+    }
+    
+    .rating:hover > input:checked ~ label:before{ 
+    opacity: 0.4;
+    }
+
+    .sinopse{
+        padding: 35px;
+    }
+
+    .trailer{
+        padding: 35px;
+        justify-content: center;
+    }
